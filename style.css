@@ -1,0 +1,257 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(50, 167, 145);
+}
+
+.header .trybewarts-header-logo {
+  width: 80px;
+  height: 80px;
+  order: 1;
+}
+
+.header #trybewarts-header-title {
+  color: white;
+  order: 2;
+}
+
+.trybewarts-login {
+  display: flex;
+  order: 3;
+  justify-content: space-between;
+}
+
+.trybewarts-login input {
+  width: 120px;
+  margin-right: 5px;
+  padding: 5px;
+}
+
+.trybewarts-login button {
+  width: 50px;
+  margin-right: 5px;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: rgba(244, 238, 215, 255);
+}
+
+#evaluation-form {
+  display: flex;
+  flex-direction: column;
+  width: 675px;
+  margin: 30px;
+}
+
+main {
+  display: flex;
+}
+
+#trybewarts-forms-logo {
+  height: 500px;
+  width: 500px;
+}
+
+.evaluation-form-name-lastname , .evaluation-form-email-house {
+  display: flex;
+}
+
+#label-family , #label-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.evaluation-form-label-family , .evaluation-form-label-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.evaluation-form-textarea {
+  display: flex;
+  flex-direction: column;
+}
+
+.label-rate-container , .label-infos-container {
+  display: flex;
+}
+
+.hidden {
+  display: none;
+}
+
+.input-text , .input-email {
+  padding: 5px;
+  width: 300px;
+  margin: 5px;
+}
+
+.evaluation-form-email-house {
+  display: flex;
+  align-items: center;
+}
+
+.evaluation-form-email-house label {
+  width: 50px;
+  text-align: center;
+}
+
+.evaluation-form-email-house select {
+  width: 250px;
+}
+
+#family-and-content {
+  display: flex;
+  align-items: center;
+}
+
+.evaluation-form-label-family {
+  margin-right: 40px;
+  line-height: 30px;
+  width: 200px;
+  align-items: center;
+}
+
+.evaluation-form-label-content {
+  line-height: 30px;
+  width: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.evaluation-form-label-content div {
+  padding: 10px;
+  width: 220px;
+}
+
+.label-rate-container label {
+  margin: 10px 5px;
+}
+
+.evaluation-form-label-content div label {
+  margin-right: 10px;
+}
+
+.label-rate-container {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  margin: 5px;
+}
+
+.evaluation-form-textarea .textarea {
+  padding: 10px 0;
+}
+
+#textarea {
+  resize: none;
+  max-width: 670px;
+}
+
+.evaluation-form-textarea div {
+  display: flex;
+}
+
+.label-infos-container {
+  margin: 10px 0;
+}
+
+#submit-btn {
+  padding: 5px;
+  border-radius: 10px;
+  background-color: rgba(244, 238, 215, 255);
+  width: 300px;
+  margin: 0 auto;
+}
+
+footer {
+  background-color: rgba(60, 64, 74, 255);
+  height: 40px;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and ( min-width : 768px ) and ( max-width : 1170px ) {
+
+  #trybewarts-forms-logo {
+    order: -1;
+    width: 200px;
+    height: 200px;
+    margin: 20px auto 0;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media screen and ( max-width : 767px ) {
+
+  #trybewarts-forms-logo {
+    order: -1;
+    width: 200px;
+    height: 200px;
+    margin: 20px auto 0;
+  }
+
+  .header {
+    flex-direction: column;
+    height: 180px;
+    justify-content: space-around;
+  }
+
+  main {
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  #evaluation-form {
+    width: 400px;
+  }
+
+  .evaluation-form-name-lastname , .evaluation-form-email-house {
+    flex-wrap: wrap;
+    width: 300px;
+    margin: 0 auto;
+  }
+
+  .evaluation-form-label-family {
+    margin-bottom: 20px;
+  }
+
+  #family-and-content , .label-rate-container {
+    flex-wrap: wrap;
+    width: 300px;
+    margin: 0 auto;
+  }
+
+  .linha {
+    width: 400px;
+    margin: 0 auto;
+  }
+
+  .evaluation-form-textarea {
+    display: flex;
+    width: 300px;
+    margin: 0 auto;
+  }
+
+  .label-infos-container {
+    width: 300px;
+    margin: 20px auto;
+  }
+}
