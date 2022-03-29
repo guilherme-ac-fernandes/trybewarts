@@ -7,5 +7,5 @@
 
 #### Demostração
 <p align="center">
-  <img src="https://github.com/guilherme-ac-fernandes/trybe-projetos/blob/main/trybewarts/trybewarts.gif" alt="Trybewarts Gif - Demostração"/>
+  <img src="https://github.com/guilherme-ac-fernandes/trybewarts/blob/main/trybewarts.gif" alt="Trybewarts Gif - Demostração"/>
 </p>
